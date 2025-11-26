@@ -6,16 +6,14 @@ stable IoU-based face tracking, logs data to CSV with timestamps, and maintains 
 performance through frame skipping and multi-threading techniques. 
 
 # 🚀 Features
-
 Face Detection: Detects faces in images or video streams.
 Face Recognition: Recognizes faces from a pre-trained dataset.
 Easy Setup: Simple installation and usage instructions.
 Scalability: Can handle large datasets for face recognition.
 
-#⚙️ Tech Stack
-
+# ⚙️ Tech Stack
 Python: Core programming language for implementation.
 OpenCV: Library used for real-time computer vision tasks, like capturing video and processing images.
 face_recognition: A powerful library built on top of dlib for face recognition.
-pandas: For handling and processing datasets (e.g., maintaining records of recognized faces).
+Pandas: For handling and processing datasets (e.g., maintaining records of recognized faces).
 NumPy: For efficient mathematical operations and array handling.
